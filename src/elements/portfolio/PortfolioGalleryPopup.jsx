@@ -7,7 +7,7 @@ const PortfolioList = [
     {
         image: 'image-1',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Ecommerce website : Nyampah.co'
     },
     {
         image: 'image-2',

@@ -40,10 +40,6 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
-
-                        
-
-                        
                         <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                         <Route component={error404}/>
 
