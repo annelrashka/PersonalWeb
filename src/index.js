@@ -23,6 +23,7 @@ import error404 from "./elements/error404";
 
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
+import PortfolioNyampah from './elements/PortfolioNyampah';
 
 class Root extends Component{
     render(){
@@ -33,13 +34,13 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
 
                         {/* Element Layot */}
-                        <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details-0`} component={PortfolioNyampah}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details-1`} component={PortfolioDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details-2`} component={PortfolioDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details-3`} component={PortfolioDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details-4`} component={PortfolioDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details-5`} component={PortfolioDetails}/>
+                        
                         <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                         <Route component={error404}/>
 

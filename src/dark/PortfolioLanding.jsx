@@ -21,8 +21,8 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
-    const PostList = BlogContent.slice(0 , 3);
+        description = 'As a frontend developer, I am passionate about creating beautiful, interactive, and user-friendly web experiences. I love working with HTML, CSS, and JavaScript to bring designs to life, and I enjoy exploring new frontend technologies and frameworks to create dynamic and engaging web applications.';
+    
     return (
         <div className="active-dark">
             <Helmet pageTitle="Annel Rashka Perdana" />
@@ -108,7 +108,7 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                                        <a className="rn-button-style--2 btn-solid" href="/blog"><span>View More</span></a>
+                                        <a className="rn-button-style--2 btn-solid" href="https://drive.google.com/drive/folders/1OtGgxDhm9XEhAWF5kaUWQvHNnR-6xoEI?usp=sharing"><span>View More</span></a>
                                     </div>
                                 </div>
                             </div>

@@ -4,31 +4,31 @@ import {Link} from "react-router-dom";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Ecommerce website : Nyampah.co'
+        category: 'Design and Development',
+        title: 'E-commerce website : Nyampah.co'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Development and Maintenance',
+        title: 'Official Website Kabinet KM ITB'
     },
     {
         image: 'image-3',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Official Website : IEEE ITB SB'
     },
     {
         image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Business Case',
+        title: 'Case Solving Report: Nike Memasuki Dunia Metaverse'
     },
     {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        image: 'image-5',
+        category: 'Design',
+        title: 'Edunex Revamp'
     },
     {
-        image: 'image-4',
+        image: 'image-6',
         category: 'Development',
         title: 'Getting tickets to the big show'
     }
@@ -50,9 +50,9 @@ class PortfolioList extends Component{
                             <div className="content">
                                 <div className="inner">
                                     <p>{value.category}</p>
-                                    <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                    <h4><a href={`/portfolio-details-${index}`}>{value.title}</a></h4>
                                     <div className="portfolio-button">
-                                        <a className="rn-btn" href="/portfolio-details">View Details</a>
+                                        <a className="rn-btn" href={`/portfolio-details-${index}`}>View Details</a>
                                     </div>
                                 </div>
                             </div>

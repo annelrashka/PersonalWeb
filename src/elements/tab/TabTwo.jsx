@@ -28,16 +28,16 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">User experience design <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
+                                                    <a>UI/UX Design <span> - Design</span></a>
+                                                    Figma, Adobe XD
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Web and user interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
+                                                    <a>Front-End Web Development<span> - Development</span></a>
+                                                    Proficiency in HTML, CSS, and JavaScript. Also familiar with ReactJS and Angular.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Interaction design <span> - Animation</span></a>
-                                                    I like to move it move it.
+                                                    <a>Video Editing <span> - Animation</span></a>
+                                                    Adobe Premier Pro, Adobe After Effect, Adobe Audition
                                                 </li>
                                             </ul>
                                         </div>
@@ -47,13 +47,19 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
+                                                   <a href="https://docs.google.com/presentation/d/1hQAHcGYoz8BCt5hl7xLLClkpvZrb_CgBETwYHZE-MXk/edit#slide=id.p">  Top 6 Business Case Competition <span>- Accounting Fair Universitas Negeri Yogyakarta</span></a> 2022
                                                </li>
                                                <li>
-                                                   <a href="/service">CSS Design Awards <span>- Winner</span></a> 2017 - 2018
+                                                   <a >Top 5 graduate in acceleration class. <span>- SMAN 1 Gadingrejo</span></a> 2019
                                                </li>
                                                <li>
-                                                   <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
+                                                   <a >Finalist in Olimpiade Fisika ITERA 4 <span>- Institut Teknologi Sumatera </span></a> 2018
+                                               </li>
+                                               <li>
+                                                   <a >Finalist in Olimpiade Fisika Himafi UNILA <span>- Universitas Lampung </span></a> 2018
+                                               </li>
+                                               <li>
+                                                   <a >Best Film Editor in Gebyar Seni Smanding <span>- SMAN 1 Gadingrejo </span></a> 2018
                                                </li>
                                            </ul>
                                        </div>
@@ -65,13 +71,19 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
+                                                   <a >Front-End Developer Freelance<span> - Badan Riset dan Inovasi Nasional</span></a> March 2023 – Mei 2023 (expected)
                                                </li>
                                                <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
+                                                   <a >Head Of  IT Division<span> - Kabinet KM ITB</span></a> July 2022 – April 2023
                                                </li>
                                                <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
+                                                   <a >Front-End Developer	<span> - IEEE ITB SB </span></a> May 2021 – Jan 2022
+                                               </li>
+                                               <li>
+                                                   <a >Front-End Developer	<span> - IMPACT STEI 2021 </span></a> Marc 2021 - May 2021
+                                               </li>
+                                               <li>
+                                                   <a >Front-End Developer	<span> - Wisuda April ITB 2021 </span></a> Feb 2021 - Apr 2021
                                                </li>
                                            </ul>
                                        </div>
@@ -81,14 +93,12 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
+                                                   <a href="https://www.itb.ac.id/program-studi-sarjana-sistem-dan-teknologi-informasi">Information System and Technology<span> - Bandung Institute of Technology</span></a> 2020 - 2024 (expected)
                                                </li>
                                                <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
+                                                   <a >Math & Natural Science<span> - SMAN 1 Gadingrejo</span></a> 2017 - 2019
                                                </li>
-                                               <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
-                                               </li>
+                                               
                                            </ul>
                                        </div>
                                     </TabPanel>
