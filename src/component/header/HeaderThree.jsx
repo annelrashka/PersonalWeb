@@ -72,7 +72,7 @@ class HeaderThree extends Component{
                     <div className="header-left d-flex align-items-center">
                         <div className="logo">
                             <a href={this.props.homeLink}>
-                                {logoUrl}
+                            <img src="/assets/images/logo/logo.png" alt="Digital Agency" />
                             </a>
                         </div>
                         <nav className="mainmenunav d-lg-block ml--50">
