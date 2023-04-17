@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import ModalVideo from 'react-modal-video';
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
-import Footer from "../component/footer/Footer";
 import FooterTwo from "../component/footer/FooterTwo";
 
 const SocialShare = [
@@ -48,7 +46,7 @@ class PortfolioNyampah extends Component{
                                     <div className="inner">
                                         <h2>Nyampah.Co</h2>
                                         <p></p>
-                                        <p className="description">This project in partnership with Badan Riset dan Inovasi Nasional (BRIN) involves creating an online platform where individuals and businesses can buy and sell waste materials for recycling or reuse. The project would be supervised by the expertise and resources from BRIN to promote innovation in waste management and encourage sustainable practices. The website would feature a user-friendly interface for buyers and sellers to connect, negotiate prices, and arrange for the pickup or delivery of the waste materials.</p>
+                                        <p className="description">This project is in partnership with Badan Riset dan Inovasi Nasional (BRIN) involves creating an online platform where individuals and businesses can buy and sell waste materials for recycling or reuse. The project would be supervised by the expertise and resources from BRIN to promote innovation in waste management and encourage sustainable practices. The website would feature a user-friendly interface for buyers and sellers to connect, negotiate prices, and arrange for the pickup or delivery of the waste materials.</p>
                                         <p className="description">As a key contributor to Nyampah.co, I led the UI/UX design and frontend development efforts. Using Figma as design tool and Angular as frontend framework, My work helped create an intuitive and user-friendly platform that allowed for easy trading of waste materials, promoting sustainability and responsible waste management. </p>
 
                                         <div className="portfolio-view-list d-flex flex-wrap">
@@ -64,7 +62,7 @@ class PortfolioNyampah extends Component{
 
                                             <div className="port-view">
                                                 <span>Presentation</span>
-                                                <h4><a href="https://www.canva.com/design/DAFgXmfblJk/1CBmsiKLzI7lMWcJEVZbPA/view?utm_content=DAFgXmfblJk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">View Project</a></h4>
+                                                <h4><a href="https://www.canva.com/design/DAFgXmfblJk/1CBmsiKLzI7lMWcJEVZbPA/view?utm_content=DAFgXmfblJk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener noreferrer">View Project</a></h4>
                                             </div>
                                         </div>
 

@@ -13,6 +13,11 @@ const PortfolioListContent = [
         title: 'Official Website Kabinet KM ITB'
     },
     {
+        image: 'image-5',
+        category: 'Design',
+        title: 'Edunex Revamp'
+    },
+    {
         image: 'image-3',
         category: 'Development',
         title: 'Official Website : IEEE ITB SB'
@@ -23,14 +28,9 @@ const PortfolioListContent = [
         title: 'Case Solving Report: Nike Memasuki Dunia Metaverse'
     },
     {
-        image: 'image-5',
-        category: 'Design',
-        title: 'Edunex Revamp'
-    },
-    {
         image: 'image-6',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Official Website : Wisuda April 2021'
     }
 ]
 
