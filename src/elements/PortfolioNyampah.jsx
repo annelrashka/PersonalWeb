@@ -48,8 +48,8 @@ class PortfolioNyampah extends Component{
                                     <div className="inner">
                                         <h2>Nyampah.Co</h2>
                                         <p></p>
-                                        <p>This project in partnership with Badan Riset dan Inovasi Nasional (BRIN) involves creating an online platform where individuals and businesses can buy and sell waste materials for recycling or reuse. The project would be supervised by the expertise and resources from BRIN to promote innovation in waste management and encourage sustainable practices. The website would feature a user-friendly interface for buyers and sellers to connect, negotiate prices, and arrange for the pickup or delivery of the waste materials.</p>
-                                        <p>As a key contributor to Nyampah.co, I led the UI/UX design and frontend development efforts. Using Figma as design tool and Angular as frontend framework, My work helped create an intuitive and user-friendly platform that allowed for easy trading of waste materials, promoting sustainability and responsible waste management. </p>
+                                        <p className="description">This project in partnership with Badan Riset dan Inovasi Nasional (BRIN) involves creating an online platform where individuals and businesses can buy and sell waste materials for recycling or reuse. The project would be supervised by the expertise and resources from BRIN to promote innovation in waste management and encourage sustainable practices. The website would feature a user-friendly interface for buyers and sellers to connect, negotiate prices, and arrange for the pickup or delivery of the waste materials.</p>
+                                        <p className="description">As a key contributor to Nyampah.co, I led the UI/UX design and frontend development efforts. Using Figma as design tool and Angular as frontend framework, My work helped create an intuitive and user-friendly platform that allowed for easy trading of waste materials, promoting sustainability and responsible waste management. </p>
 
                                         <div className="portfolio-view-list d-flex flex-wrap">
                                             <div className="port-view">
@@ -78,11 +78,20 @@ class PortfolioNyampah extends Component{
                                     </div>
                                     <div className="portfolio-thumb-inner">
                                         <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/nyampah/1.png" alt="Portfolio Images"/>
                                         </div>
 
                                         <div className="thumb">
-                                            <img src="/assets/images/portfolio/portfolio-big-01.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/nyampah/2.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb">
+                                            <img src="/assets/images/portfolio/nyampah/3.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb">
+                                            <img src="/assets/images/portfolio/nyampah/4.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb">
+                                            <img src="/assets/images/portfolio/nyampah/5.png" alt="Portfolio Images"/>
                                         </div>
                                     </div>
                                 </div>
