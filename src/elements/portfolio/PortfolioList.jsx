@@ -23,15 +23,16 @@ const PortfolioListContent = [
         title: 'Official Website : IEEE ITB SB'
     },
     {
-        image: 'image-4',
-        category: 'Business Case',
-        title: 'Case Solving Report: Nike Memasuki Dunia Metaverse'
-    },
-    {
         image: 'image-6',
         category: 'Development',
         title: 'Official Website : Wisuda April 2021'
+    },
+    {
+        image: 'image-4',
+        category: 'Business Case',
+        title: 'Case Solving Report: Nike Memasuki Dunia Metaverse'
     }
+   
 ]
 
 class PortfolioList extends Component{

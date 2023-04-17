@@ -12,7 +12,7 @@ const SocialShare = [
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/annelrashka'},
 ]
 
-class PortfolioKM extends Component{
+class PortfolioWispril extends Component{
     constructor () {
         super()
         this.state = {
@@ -31,7 +31,7 @@ class PortfolioKM extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
                 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--6"  data-black-overlay="7">
+                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--8"  data-black-overlay="7">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -49,10 +49,10 @@ class PortfolioKM extends Component{
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
                                     <div className="inner">
-                                        <h2>Website KM ITB</h2>
+                                        <h2>Wisuda April ITB 2021</h2>
                                         <p></p>
-                                        <p>KM ITB is an organization for ITB students to be able to realize the continuity of the self-education process and meet the basic needs of students in order to fulfill educational goals at ITB.</p>
-                                        <p>As the Head of the Website Division for Kabinet Keluarga Mahasiswa ITB, I was responsible for maintaining and updating the official website using Wordpress. I streamlined the website's design and functionality, resulting in increased traffic and engagement from the student body and wider community. My efforts helped promote the organization's mission and values and provided an effective communication channel for its members.</p>
+                                        <p>Parade Wisuda April ITB (wispril) is an event held by ITB's student to commemorate the graduation of ITB graduates.</p>
+                                        <p>As staff of the Website Division wispril, I was responsible for implementing wispril's landing page using React.js</p>
                                         <div className="portfolio-view-list d-flex flex-wrap">
                                             <div className="port-view">
                                                 <span>Branch</span>
@@ -66,7 +66,7 @@ class PortfolioKM extends Component{
 
                                             <div className="port-view">
                                                 <span>Website</span>
-                                                <h4><a href="https://km.itb.ac.id/" target="_blank" rel="noopener noreferrer">View Project</a></h4>
+                                                <h4><a href="https://www.figma.com/proto/7hZAWOyjGPZ3wifXLzUjPG/Untitled?node-id=6-929&scaling=min-zoom&page-id=0%3A1" target="_blank" rel="noopener noreferrer">View Project</a></h4>
                                             </div>
                                         </div>
 
@@ -81,13 +81,7 @@ class PortfolioKM extends Component{
                                     <div className="portfolio-thumb-inner">
                                         
                                         <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/KM/image3.png" alt="Portfolio Images"/>
-                                        </div>
-
-                                        <hr></hr>
-
-                                        <div className="thumb">
-                                            <img src="/assets/images/portfolio/KM/image2.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/wisprilPort.jpg" alt="Portfolio Images"/>
                                         </div>
                                     </div>
                                 </div>
@@ -114,4 +108,4 @@ class PortfolioKM extends Component{
         )
     }
 }
-export default PortfolioKM;
+export default PortfolioWispril;

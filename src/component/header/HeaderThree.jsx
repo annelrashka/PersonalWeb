@@ -4,10 +4,8 @@ import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/annel-rashka-perdana-ab5380151/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/annelrashka'},
 ]
 class HeaderThree extends Component{
     constructor(props) {

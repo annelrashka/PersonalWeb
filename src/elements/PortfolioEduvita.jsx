@@ -8,10 +8,8 @@ import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/annel-rashka-perdana-ab5380151/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/annelrashka'},
 ]
 
 class PortfolioEduvita extends Component{
@@ -73,7 +71,7 @@ class PortfolioEduvita extends Component{
 
                                             <div className="port-view">
                                                 <span>Presentation</span>
-                                                <h4><a href="https://www.canva.com/design/DAFTOrcI74M/O6ZIJhNCMMUUqsi8JcIDMw/view?utm_content=DAFTOrcI74M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener noreferrer">View Project</a></h4>
+                                                <h4><a href="https://www.canva.com/design/DAFTOrcI74M/O6ZIJhNCMMUUqsi8JcIDMw/view?utm_content=DAFTOrcI74M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener noreferrer">View Presentation</a></h4>
                                             </div>
                                         </div>
 
