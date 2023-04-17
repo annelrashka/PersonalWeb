@@ -15,7 +15,7 @@ const SocialShare = [
     {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 
-class PortfolioNyampah extends Component{
+class PortfolioEduvita extends Component{
     constructor () {
         super()
         this.state = {
@@ -35,7 +35,16 @@ class PortfolioNyampah extends Component{
                 
                 {/* Start Breadcrump Area */}
                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--4"  data-black-overlay="7">
-                    
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="rn-page-title text-center pt--100">
+                                    <h2 className="title theme-gradient">Getting tickets to the big show</h2>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 {/* End Breadcrump Area */}
 
@@ -46,15 +55,14 @@ class PortfolioNyampah extends Component{
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
                                     <div className="inner">
-                                        <h2>Nyampah.Co</h2>
-                                        <p></p>
-                                        <p>This project in partnership with Badan Riset dan Inovasi Nasional (BRIN) involves creating an online platform where individuals and businesses can buy and sell waste materials for recycling or reuse. The project would be supervised by the expertise and resources from BRIN to promote innovation in waste management and encourage sustainable practices. The website would feature a user-friendly interface for buyers and sellers to connect, negotiate prices, and arrange for the pickup or delivery of the waste materials.</p>
-                                        <p>As a key contributor to Nyampah.co, I led the UI/UX design and frontend development efforts. Using Figma as design tool and Angular as frontend framework, My work helped create an intuitive and user-friendly platform that allowed for easy trading of waste materials, promoting sustainability and responsible waste management. </p>
+                                        <h2>Eduvita.Co</h2>
+                                        <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
 
                                         <div className="portfolio-view-list d-flex flex-wrap">
                                             <div className="port-view">
                                                 <span>Branch</span>
-                                                <h4>Development</h4>
+                                                <h4>Ability</h4>
                                             </div>
 
                                             <div className="port-view">
@@ -63,8 +71,8 @@ class PortfolioNyampah extends Component{
                                             </div>
 
                                             <div className="port-view">
-                                                <span>Presentation</span>
-                                                <h4><a href="https://www.canva.com/design/DAFgXmfblJk/1CBmsiKLzI7lMWcJEVZbPA/view?utm_content=DAFgXmfblJk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">View Project</a></h4>
+                                                <span>Program</span>
+                                                <h4>View Project</h4>
                                             </div>
                                         </div>
 
@@ -77,6 +85,12 @@ class PortfolioNyampah extends Component{
                                         </div>
                                     </div>
                                     <div className="portfolio-thumb-inner">
+                                        <div className="thumb position-relative mb--30">
+                                            <img src="/assets/images/portfolio/eduvitaVid.png" alt="Thumnail Eduvita"/>
+                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='zyxreJ4u1cU' onClose={() => this.setState({isOpen: false})} />
+                                            <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
+                                        </div>
+                                        
                                         <div className="thumb mb--30">
                                             <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
                                         </div>
@@ -92,7 +106,7 @@ class PortfolioNyampah extends Component{
                 </div>
                 {/* End Portfolio Details */}
 
-{/*                 
+                {/* Start Related Work */}
                 <div className="portfolio-related-work pb--120 bg_color--1">
                     <div className="container">
                         <div className="row">
@@ -104,7 +118,7 @@ class PortfolioNyampah extends Component{
                             </div>
                         </div>
                         <div className="row mt--10">
-                           
+                            {/* Start Single Portfolio */}
                             <div className="col-lg-6 col-md-6 col-12">
                                 <div className="related-work text-center mt--30">
                                     <div className="thumb">
@@ -118,7 +132,8 @@ class PortfolioNyampah extends Component{
                                     </div>
                                 </div>
                             </div>
-                            
+                             {/* End Single Portfolio */}
+                            {/* Start Single Portfolio */}
                             <div className="col-lg-6 col-md-6 col-12">
                                 <div className="related-work text-center mt--30">
                                     <div className="thumb">
@@ -132,11 +147,11 @@ class PortfolioNyampah extends Component{
                                     </div>
                                 </div>
                             </div>
-                             
+                             {/* End Single Portfolio */}
                         </div>
                     </div>
                 </div>
-                 */}
+                {/* End Related Work */}
 
                 {/* Start Back To Top */}
                 <div className="backto-top">
@@ -153,4 +168,4 @@ class PortfolioNyampah extends Component{
         )
     }
 }
-export default PortfolioNyampah;
+export default PortfolioEduvita;
