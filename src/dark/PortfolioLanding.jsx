@@ -39,7 +39,7 @@ const PortfolioLanding = () => {
                                             {value.category ? <span>{value.category}</span> : ''}
                                             <h1 className="title">Hi, I’m Annel <br/>
                                             <TextLoop>
-                                                <span> JS Developer.</span>
+                                                <span> Frontend Developer.</span>
                                                 <span> UI/UX Designer.</span>
                                             </TextLoop>{" "}
                                             </h1>

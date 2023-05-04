@@ -30,7 +30,7 @@ const PortfolioListContent = [
     {
         image: 'image-4',
         category: 'Business Case',
-        title: 'Case Solving Report: Nike Memasuki Dunia Metaverse'
+        title: 'Case Solving Report: Nike Entering Metaverse'
     }
    
 ]
