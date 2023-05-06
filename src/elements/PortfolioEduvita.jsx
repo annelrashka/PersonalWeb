@@ -85,7 +85,7 @@ class PortfolioEduvita extends Component{
                                     </div>
                                     <div className="portfolio-thumb-inner">
                                         <div className="thumb position-relative mb--30">
-                                            <img src="../../assets/images/portfolio/eduvitaVid.png" alt="Thumnail Eduvita"/>
+                                            <img src="../../assets/images/portfolio/EduvitaVid.png" alt="Thumnail Eduvita"/>
                                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='zyxreJ4u1cU' onClose={() => this.setState({isOpen: false})} />
                                             <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
                                         </div>
