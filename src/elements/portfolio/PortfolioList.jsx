@@ -43,7 +43,7 @@ class PortfolioList extends Component{
             <React.Fragment> 
                 {list.map((value , index) => (
                     <div className={`${column}`} key={index}>
-                        <div className={`portfolio ${styevariation}`}>
+                        <div className={`portfolio ${styevariation}`} >
                             <div className="thumbnail-inner">
                                 <div className={`thumbnail ${value.image}`}></div>
                                 <div className={`bg-blr-image ${value.image}`}></div>
@@ -57,7 +57,7 @@ class PortfolioList extends Component{
                                     </div>
                                 </div>
                             </div>
-                            <Link className="link-overlay" to="/portfolio-details"></Link>
+                            <Link className="link-overlay" to = {`/portfolio-details-${index}`}></Link>
                         </div>
                     </div>
                 ))}

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from 'react-modal-video';
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
+import {FaInstagram ,FaLinkedinIn} from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
@@ -85,17 +85,17 @@ class PortfolioEduvita extends Component{
                                     </div>
                                     <div className="portfolio-thumb-inner">
                                         <div className="thumb position-relative mb--30">
-                                            <img src="/assets/images/portfolio/eduvitaVid.png" alt="Thumnail Eduvita"/>
+                                            <img src="../../assets/images/portfolio/eduvitaVid.png" alt="Thumnail Eduvita"/>
                                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='zyxreJ4u1cU' onClose={() => this.setState({isOpen: false})} />
                                             <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
                                         </div>
                                         
                                         <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/eduvita/leaflet1.jpg" alt="Portfolio Images"/>
+                                            <img src="../../assets/images/portfolio/eduvita/Leaflet1.jpg" alt="Portfolio Images"/>
                                         </div>
 
                                         <div className="thumb">
-                                            <img src="/assets/images/portfolio/eduvita/leaflet2.jpg" alt="Portfolio Images"/>
+                                            <img src="../../assets/images/portfolio/eduvita/Leaflet2.jpg" alt="Portfolio Images"/>
                                         </div>
                                     </div>
                                 </div>
