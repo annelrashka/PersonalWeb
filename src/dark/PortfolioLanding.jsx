@@ -103,13 +103,13 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <PortfolioList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" />
                             </div>
-                            <div className="row">
+                            {/* <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 mt_sm--30 text-center">
                                         <a className="rn-button-style--2 btn-solid" href="https://drive.google.com/drive/folders/1OtGgxDhm9XEhAWF5kaUWQvHNnR-6xoEI?usp=sharing" target='#'><span>View More</span></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
