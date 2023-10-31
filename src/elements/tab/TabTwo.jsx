@@ -33,7 +33,7 @@ class TabsTwo extends Component{
                                                 </li>
                                                 <li>
                                                     <a>Web Development<span> - Development</span></a>
-                                                    ReactJS, VueJS, ExpressJS
+                                                    ReactJS, VueJS, ExpressJS, RESTful API
                                                 </li>
                                                 <li>
                                                     <a>Video Editing <span> - Animation</span></a>
