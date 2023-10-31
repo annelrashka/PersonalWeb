@@ -62,7 +62,12 @@ class PortfolioNyampah extends Component{
 
                                             <div className="port-view">
                                                 <span>Presentation</span>
-                                                <h4><a href="https://www.canva.com/design/DAFgXmfblJk/1CBmsiKLzI7lMWcJEVZbPA/view?utm_content=DAFgXmfblJk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener noreferrer">View Project</a></h4>
+                                                <h4><a href="https://www.canva.com/design/DAFgXmfblJk/1CBmsiKLzI7lMWcJEVZbPA/view?utm_content=DAFgXmfblJk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noopener noreferrer">View Presentation</a></h4>
+                                            </div>
+
+                                            <div className="port-view">
+                                                <span>Project</span>
+                                                <h4><a href="https://nyampah.co/" target="_blank" rel="noopener noreferrer">View Project</a></h4>
                                             </div>
                                         </div>
 

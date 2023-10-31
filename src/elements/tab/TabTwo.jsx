@@ -29,11 +29,11 @@ class TabsTwo extends Component{
                                             <ul>
                                                 <li>
                                                     <a>UI/UX Design <span> - Design</span></a>
-                                                    Figma, Adobe XD
+                                                    Figma, Adobe XD, Photoshop
                                                 </li>
                                                 <li>
-                                                    <a>Front-End Web Development<span> - Development</span></a>
-                                                    Proficiency in HTML, CSS, and JavaScript. Also familiar with ReactJS and Angular.
+                                                    <a>Web Development<span> - Development</span></a>
+                                                    ReactJS, VueJS, ExpressJS, Springboot
                                                 </li>
                                                 <li>
                                                     <a>Video Editing <span> - Animation</span></a>
@@ -70,8 +70,11 @@ class TabsTwo extends Component{
                                     <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
+                                                <li>
+                                                   <a >Full-Stack Developer<span> - Astra Honda Motor</span></a> July 2023 – Aug 2023 
+                                               </li>
                                                <li>
-                                                   <a >Front-End Developer Freelance<span> - Badan Riset dan Inovasi Nasional</span></a> March 2023 – Mei 2023 (expected)
+                                                   <a >Front-End Developer Freelance<span> - Badan Riset dan Inovasi Nasional</span></a> March 2023 – Mei 2023
                                                </li>
                                                <li>
                                                    <a >Head Of  IT Division<span> - Kabinet KM ITB</span></a> July 2022 – April 2023

@@ -3,6 +3,11 @@ import {Link} from "react-router-dom";
 
 const PortfolioListContent = [
     {
+        image: 'image-0',
+        category: 'Design and Development',
+        title: 'Event Management System'
+    },
+    {
         image: 'image-1',
         category: 'Design and Development',
         title: 'E-commerce website : Nyampah.co'
@@ -21,6 +26,11 @@ const PortfolioListContent = [
         image: 'image-3',
         category: 'Development',
         title: 'Official Website : IEEE ITB SB'
+    },
+    {
+        image: 'image-7',
+        category: 'Development',
+        title: 'Project Exercise : Investment Calculator'
     },
     {
         image: 'image-6',

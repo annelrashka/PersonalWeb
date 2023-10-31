@@ -19,7 +19,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'As a frontend developer, I am passionate about creating beautiful, interactive, and user-friendly web experiences. I love working with HTML, CSS, and JavaScript to bring designs to life, and I enjoy exploring new frontend technologies and frameworks to create dynamic and engaging web applications.';
+        description = 'As a Web developer, I am passionate about creating beautiful, interactive, and user-friendly web experiences. I love working with web technologies to bring designs to life, and I enjoy exploring new technologies and frameworks to create dynamic and engaging web applications.';
     
     return (
         <div className="active-dark">
@@ -39,7 +39,7 @@ const PortfolioLanding = () => {
                                             {value.category ? <span>{value.category}</span> : ''}
                                             <h1 className="title">Hi, I’m Annel <br/>
                                             <TextLoop>
-                                                <span> Frontend Developer.</span>
+                                                <span> Web Developer.</span>
                                                 <span> UI/UX Designer.</span>
                                             </TextLoop>{" "}
                                             </h1>
@@ -101,7 +101,7 @@ const PortfolioLanding = () => {
                                 </div>
                             </div>
                             <div className="row">
-                                <PortfolioList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" />
+                                <PortfolioList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="8" />
                             </div>
                             {/* <div className="row">
                                 <div className="col-lg-12">
